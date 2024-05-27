@@ -1,24 +1,29 @@
 import { getSortedPostsData } from '../lib/posts';
 import BlogList from '../components/BlogList';
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/Navbar';
 import Profile from '@/components/Profile';
+import Layout from './layout';
+
+export function formatDate(dateString) {
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return new Date(dateString).toLocaleDateString('en-US', options);
+}
 
 export default function Home({ allPostsData }) {
   // Convert Date objects to string representations
   const formattedPosts = allPostsData.map(post => ({
     ...post,
-    // Convert Date to ISO string
-    date: typeof post.date === 'string' ? post.date : post.date.toISOString()
+    date: formatDate(post.date)
   }));
 
   return (
-    <div>
-       <Navbar />  
+    <Layout>
+       {/* <Navbar />   */}
        <Profile />
        <div className='w-full  text-white '>
         <BlogList posts={formattedPosts} />
        </div>
-    </div>
+    </Layout>
   );
 }
 

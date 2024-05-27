@@ -2,7 +2,20 @@
 title: "My Homemade Pizza Blog Post"
 date: 2024-05-27
 author: "John Doe"
+image: "/images/pizza.jpg"
 summary: "Learn how to make a delicious homemade pizza with an easy-to-follow recipe, perfect for any toppings you like."
+
+
+style: |
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
 
 ---
 
@@ -12,7 +25,8 @@ summary: "Learn how to make a delicious homemade pizza with an easy-to-follow re
 
 ## Introduction
 
-Who doesn't love a slice of delicious, homemade pizza? With this easy-to-follow recipe, you can create a mouth-watering pizza right in your own kitchen. Whether you're a fan of classic Margherita or you like to load your pizza with all kinds of toppings, this recipe will serve as a perfect base for your culinary creativity.
+Who doesn't love a slice of delicious, homemade pizza? With this easy-to-follow recipe, you can create a mouth-watering pizza right in your own kitchen. Whether you're a fan of classic Margherita or you like to load your pizza with all kinds of toppings, this recipe will serve as a perfect base for your culinary creativity .
+
 
 ## Ingredients
 

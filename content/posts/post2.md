@@ -2,6 +2,7 @@
 title: "Exploring the Evolution of Rock Music"
 date: 2024-05-27
 author: "Jane Smith"
+image: "/images/music.jpg"
 summary: "An in-depth look at the history and development of rock music, from its roots to its modern-day influence."
 ---
 

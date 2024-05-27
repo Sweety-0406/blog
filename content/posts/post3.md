@@ -2,6 +2,7 @@
 title: "Spring 2024 Fashion Trends You Need to Know"
 date: 2024-05-27
 author: "Emily Brown"
+image: "/images/fashion.jpg"
 summary: "A look at the hottest fashion trends for Spring 2024, including bold colors, sustainable fabrics, and statement accessories."
 ---
 
@@ -54,3 +55,6 @@ Chunky, oversized jewelry is another trend to watch. From large hoop earrings to
 ## Conclusion
 
 Spring 2024 is all about embracing bold colors, sustainable choices, and statement accessories. Whether you're updating your wardrobe or looking for new ways to express your style, these trends offer plenty of inspiration. Stay ahead of the fashion curve and make a stylish statement this season!
+
+
+---
