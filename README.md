@@ -56,7 +56,7 @@ This is a static blog application built with Next.js. The project involves creat
 
   ```
 
-# Setup and Installation
+## Setup and Installation
 
 1. Clone the repository:
    ```sh
