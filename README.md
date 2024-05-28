@@ -55,7 +55,7 @@ This is a static blog application built with Next.js. The project involves creat
     
 ## Live Link
    ```sh
-   git clone https://github.com/Sweety-0406/blog
+   https://blog-pp4rlhaye-kiyaras-projects.vercel.app
 
   ```
 
@@ -63,7 +63,7 @@ This is a static blog application built with Next.js. The project involves creat
 
 1. Clone the repository:
    ```sh
-   https://blog-pp4rlhaye-kiyaras-projects.vercel.app
+  git clone https://github.com/Sweety-0406/blog
 
 
 2. Run the development server:
