@@ -1,7 +1,9 @@
+
+
+
 import { getSortedPostsData } from '../lib/posts';
 import BlogList from '../components/BlogList';
-import Navbar from '@/components/Navbar';
-import Profile from '@/components/Profile';
+import Profile from '../components/Profile';
 import Layout from './layout';
 
 export function formatDate(dateString) {
@@ -13,14 +15,13 @@ export default function Home({ allPostsData }) {
   // Convert Date objects to string representations
   const formattedPosts = allPostsData.map(post => ({
     ...post,
-    date: formatDate(post.date)
+    date: post.date.toString(),
   }));
 
   return (
-    <Layout>
-       {/* <Navbar />   */}
+    <Layout allPostsData={formattedPosts}>
        <Profile />
-       <div className='w-full  text-white '>
+       <div className='w-full text-white'>
         <BlogList posts={formattedPosts} />
        </div>
     </Layout>
@@ -40,3 +41,4 @@ export async function getStaticProps() {
     }
   };
 }
+

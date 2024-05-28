@@ -14,10 +14,8 @@ export default function Post({ postData }) {
               <img src={postData.image} alt="image" className='flex aspect-video lg:w-full items-center rounded-xl justify-center p-0' />
             </div>
             <p className='text-blue-300'>{formatDate(postData.date)}</p>
+            <p className='text-blue-300'> {postData.author}</p>
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{postData.content}</ReactMarkdown>
-            {/* <article>
-              <section dangerouslySetInnerHTML={{__html:postData.content}} />
-            </article> */}
           </div>
         </Layout>
       );

@@ -2,20 +2,10 @@
 title: "My Homemade Pizza Blog Post"
 date: 2024-05-27
 author: "John Doe"
+blogType: "food"
 image: "/images/pizza.jpg"
 summary: "Learn how to make a delicious homemade pizza with an easy-to-follow recipe, perfect for any toppings you like."
 
-
-style: |
-  h1 {
-    font-size: 54px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 16px;
-  }
 
 ---
 

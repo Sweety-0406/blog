@@ -2,6 +2,7 @@
 title: "Spring 2024 Fashion Trends You Need to Know"
 date: 2024-05-27
 author: "Emily Brown"
+blogType: "fashion"
 image: "/images/fashion.jpg"
 summary: "A look at the hottest fashion trends for Spring 2024, including bold colors, sustainable fabrics, and statement accessories."
 ---
