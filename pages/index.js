@@ -49,7 +49,7 @@ import { useState } from 'react';
 import Layout from './layout';
 import Profile from '../components/Profile';
 import BlogList from '../components/BlogList';
-import Pagination from '../components/Pagination'; // Import Pagination component
+
 
 export function formatDate(dateString) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -74,13 +74,6 @@ export default function Home({ allPostsData }) {
       <div className='w-full text-white'>
         <BlogList posts={currentPosts} />
       </div>
-      {/* Pagination */}
-      <Pagination
-        postsPerPage={postsPerPage}
-        totalPosts={allPostsData.length}
-        paginate={paginate}
-        currentPage={currentPage}
-      />
     </Layout>
   );
 }

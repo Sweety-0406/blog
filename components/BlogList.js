@@ -43,7 +43,7 @@ export default function BlogList({ posts }) {
       <div className="mt-4">
         <ul className="flex justify-center">
           {Array.from({ length: Math.ceil(posts.length / postsPerPage) }, (_, index) => (
-            <li key={index} className={`${currentPage === index + 1 ? 'font-bold' : ''} cursor-pointer mx-2`} onClick={() => paginate(index + 1)}>
+            <li key={index} className={`${currentPage === index + 1 ? 'font-bold text-black bg-yellow-300 w-7 h-7 rounded-full flex items-center justify-center' : ''} cursor-pointer mx-2`} onClick={() => paginate(index + 1)}>
               {index + 1}
             </li>
           ))}
