@@ -36,12 +36,22 @@ export default function SearchResults({ allPostsData }) {
        <Profile />
        <div className='w-full text-white'>
         {formattedSearchResults.length==0 ? (
-            <div className='lg:mx-10'>
-                <div className='text-3xl font-bold ml-1'>
-                    Blogs
-                </div>
-                <div>
-                    <img src="/images/no-blog.jpg" alt="" />
+            <div className='lg:mx-10 '>
+                <div className='grid grid-cols-7'>
+                    <div className='hidden md:block col-span-4'>
+                        <img src="/images/no-blog.jpg" alt="" />
+                    </div>
+                    <div className='col-span-7 md:col-span-3 md:mt-28 xl:mt-40'>
+                        <div className='items-center flex flex-col '>
+                           <div className='text-xl xl:text-3xl font-semibold text-sky-300'>
+                            NO BLOGS
+                           </div>
+                           <div className='text-sm xl:text-lg'>
+                           No Blogs Are Found Related To Your Search
+                           </div>
+                           <button onClick={()=>router.push("/")} className='bg-sky-600 mt-4 rounded-full p-1 border-2 border-sky-700 hover:bg-sky-400'>Go To Home</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         ):(
