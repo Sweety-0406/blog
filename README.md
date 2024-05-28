@@ -32,6 +32,7 @@ This is a static blog application built with Next.js. The project involves creat
      - `title`: The title of the blog post.
      - `date`: The publication date of the blog post.
      - `author`: The author of the blog post.
+     - `blogType`: Type of blog.
      - `image`: Image of the blog post.
      - `summary`: A brief summary of the blog post.
 
