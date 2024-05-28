@@ -27,10 +27,7 @@ This is a static blog application built with Next.js. The project involves creat
 
 ## Key Features
 
-1. **Folder Structure**
-   - Create a directory `content/posts` to store Markdown files for blog posts.
-
-2. **Markdown Files**
+1. **Markdown Files**
    - Create at least three sample Markdown files with the following metadata:
      - `title`: The title of the blog post.
      - `date`: The publication date of the blog post.
@@ -38,19 +35,19 @@ This is a static blog application built with Next.js. The project involves creat
      - `image`: Image of the blog post.
      - `summary`: A brief summary of the blog post.
 
-3. **Static Generation with `getStaticProps` and `getStaticPaths`**
+2. **Static Generation with `getStaticProps` and `getStaticPaths`**
 
 
-5. **Pages**
+3. **Pages**
    - **Homepage (`index.js`)**
      - Display the list of blog posts with their titles and summaries.
    - **Blog Post Page (`[slug].js`)**
      - Display the full content of the blog post along with blog post image corresponding to the slug in the URL.
 
-6. **Responsive design**
+4. **Responsive design**
      - The site is responsive and provides a good user experience across different devices and screen sizes.
 
-7. **Search functionality**
+5. **Search functionality**
   - Implement a search feature to filter blog posts based blog type.
     
 ## Live Link
@@ -63,7 +60,7 @@ This is a static blog application built with Next.js. The project involves creat
 
 1. Clone the repository:
    ```sh
-  git clone https://github.com/Sweety-0406/blog
+   git clone https://github.com/Sweety-0406/blog
 
 
 2. Run the development server:
