@@ -16,7 +16,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Contact Page
 ![Screenshot 2024-05-28 154657](https://github.com/Sweety-0406/blog/assets/141710927/9e1a6eff-6250-4d1d-b716-dbc0e9e49301)
 
-## Pagenation Feature
+## Pagination Feature
 ![Screenshot 2024-05-28 164346](https://github.com/Sweety-0406/blog/assets/141710927/962c6323-e399-4e96-9980-3e0bc1dede6d)
 
 
